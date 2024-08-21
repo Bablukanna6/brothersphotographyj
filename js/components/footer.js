@@ -4,7 +4,7 @@ const footer_component = `
 <div>
 
 <a href="../my-story">
-  <span><i class="title">Book us now</i></span>
+  <span><i class="title">Book Now</i></span>
 </a>
 
         <div class="footernave">
@@ -25,6 +25,6 @@ const footer_component = `
         </div>
         <p>Capturing Moments, Creating Memories</p>
        <p>&copy; 2024 Brothers Photography. All Rights Reserved. &#8482;</p>
-       <br> <br> <br> <br>
+       <br> <br> <br> 
       </div>`;
 footer.innerHTML = footer_component;
