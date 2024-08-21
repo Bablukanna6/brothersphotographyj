@@ -130,12 +130,17 @@ blogData.forEach((item) => {
             />
           </a>
           <a href="../blog/?${item.title}" class="content">
-            <h2 class="content">${item.title}</h2>
+            <h2 class="content">${capitalizeFirstLetterOfEachWord(item.title.toLowerCase())}</h2>
           </a>
         </div>
       </div>`;
   blogPostsContainer.innerHTML += component + "\n";
 });
+
+function capitalizeFirstLetterOfEachWord(str) {
+  return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+}
+
 
 // Featured on Netflix cards
 
