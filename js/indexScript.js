@@ -1,14 +1,14 @@
 const imageUrls =[
-  "https://zenfolio.creatorcdn.com/5b852109-633c-456f-a158-81568697c58a/0/1/0/X2XL/0-0-0/fb4e2ab4-2e6c-4efc-9aa0-699d276f65d1/1/1/1.jpg?fjkss=exp=1729168200~hmac=3039ad11ab1fb1e84a193e3fa7b0c351eafe4fba37421e5c94ea0309316bf8d6",
-  "https://zenfolio.creatorcdn.com/5b852109-633c-456f-a158-81568697c58a/0/1/0/X2XL/0-0-0/4b14078d-9973-498e-bee0-985aa660b49b/1/1/2.jpg?fjkss=exp=1729168200~hmac=3039ad11ab1fb1e84a193e3fa7b0c351eafe4fba37421e5c94ea0309316bf8d6",
-  "https://zenfolio.creatorcdn.com/5b852109-633c-456f-a158-81568697c58a/0/1/0/X2XL/0-0-0/032da74d-3865-4163-b882-316f638f2ce0/1/1/3.jpg?fjkss=exp=1729168200~hmac=3039ad11ab1fb1e84a193e3fa7b0c351eafe4fba37421e5c94ea0309316bf8d6",
-  "https://zenfolio.creatorcdn.com/5b852109-633c-456f-a158-81568697c58a/0/1/0/X2XL/0-0-0/dee43c91-dd77-4e72-a0d4-3f3a321ca287/1/1/4.jpg?fjkss=exp=1729168200~hmac=3039ad11ab1fb1e84a193e3fa7b0c351eafe4fba37421e5c94ea0309316bf8d6",
-  "https://zenfolio.creatorcdn.com/5b852109-633c-456f-a158-81568697c58a/0/1/0/X2XL/0-0-0/1f68abc2-c7c8-4568-8d58-91269557f591/1/1/5.jpg?fjkss=exp=1729168200~hmac=3039ad11ab1fb1e84a193e3fa7b0c351eafe4fba37421e5c94ea0309316bf8d6",
-  "https://zenfolio.creatorcdn.com/5b852109-633c-456f-a158-81568697c58a/0/1/0/X2XL/0-0-0/f325e1f5-53e9-45e0-9cb8-c2ab8a411519/1/1/6.jpg?fjkss=exp=1729168200~hmac=3039ad11ab1fb1e84a193e3fa7b0c351eafe4fba37421e5c94ea0309316bf8d6",
-  "https://zenfolio.creatorcdn.com/5b852109-633c-456f-a158-81568697c58a/0/1/0/X2XL/0-0-0/4d20c855-2190-4af0-b98d-e0b491ad731b/1/1/7.jpg?fjkss=exp=1729168200~hmac=3039ad11ab1fb1e84a193e3fa7b0c351eafe4fba37421e5c94ea0309316bf8d6",
-  "https://zenfolio.creatorcdn.com/5b852109-633c-456f-a158-81568697c58a/0/1/0/X2XL/0-0-0/b0c9fe28-d7bf-4d29-a8a8-cdb3555cdd8a/1/1/8.jpg?fjkss=exp=1729168200~hmac=3039ad11ab1fb1e84a193e3fa7b0c351eafe4fba37421e5c94ea0309316bf8d6",
-  "https://zenfolio.creatorcdn.com/5b852109-633c-456f-a158-81568697c58a/0/1/0/X2XL/0-0-0/3a12811a-9b81-4a29-ac63-c2c6152f6f6f/1/1/9.jpg?fjkss=exp=1729168200~hmac=3039ad11ab1fb1e84a193e3fa7b0c351eafe4fba37421e5c94ea0309316bf8d6"
-];
+  "https://zenfolio.creatorcdn.com/6e812bdb-ce51-4e46-b8c4-b7502be79ab8/0/1/0/X2XL/0-0-0/8567c613-451e-454e-89b4-f5c5fa6df85d/1/1/1.jpg?fjkss=exp=1735459200~hmac=9eb2009b204d4917a35a351b1dc8e9ba93561bf1921240f131cbdb6d93bd3996",
+  "https://zenfolio.creatorcdn.com/6e812bdb-ce51-4e46-b8c4-b7502be79ab8/0/1/0/X2XL/0-0-0/bb19c0e9-b5a4-49c0-8ed0-c8ba098bcdd8/1/1/2.jpg?fjkss=exp=1735459200~hmac=9eb2009b204d4917a35a351b1dc8e9ba93561bf1921240f131cbdb6d93bd3996",
+  "https://zenfolio.creatorcdn.com/6e812bdb-ce51-4e46-b8c4-b7502be79ab8/0/1/0/X2XL/0-0-0/d751bb0d-c164-49c6-bd61-0131b0927273/1/1/3.jpg?fjkss=exp=1735459200~hmac=9eb2009b204d4917a35a351b1dc8e9ba93561bf1921240f131cbdb6d93bd3996",
+  "https://zenfolio.creatorcdn.com/6e812bdb-ce51-4e46-b8c4-b7502be79ab8/0/1/0/X2XL/0-0-0/1c03c039-8491-4286-b22a-262ef9f98996/1/1/4.jpg?fjkss=exp=1735459200~hmac=9eb2009b204d4917a35a351b1dc8e9ba93561bf1921240f131cbdb6d93bd3996",
+  "https://zenfolio.creatorcdn.com/6e812bdb-ce51-4e46-b8c4-b7502be79ab8/0/1/0/X2XL/0-0-0/5689cf85-bd20-465e-9f28-19162bb29c4f/1/1/5.jpg?fjkss=exp=1735459200~hmac=9eb2009b204d4917a35a351b1dc8e9ba93561bf1921240f131cbdb6d93bd3996",
+  "https://zenfolio.creatorcdn.com/6e812bdb-ce51-4e46-b8c4-b7502be79ab8/0/1/0/X2XL/0-0-0/87b87d58-b3c9-419f-b6f7-584364d447af/1/1/6.jpg?fjkss=exp=1735459200~hmac=9eb2009b204d4917a35a351b1dc8e9ba93561bf1921240f131cbdb6d93bd3996",
+  "https://zenfolio.creatorcdn.com/6e812bdb-ce51-4e46-b8c4-b7502be79ab8/0/1/0/X2XL/0-0-0/56571c6d-1478-4dc3-800b-c6c0b0d13ac7/1/1/7.jpg?fjkss=exp=1735459200~hmac=9eb2009b204d4917a35a351b1dc8e9ba93561bf1921240f131cbdb6d93bd3996",
+  "https://zenfolio.creatorcdn.com/6e812bdb-ce51-4e46-b8c4-b7502be79ab8/0/1/0/X2XL/0-0-0/e1e86b18-f223-4fbe-b179-df55147a657e/1/1/8.jpg?fjkss=exp=1735459200~hmac=9eb2009b204d4917a35a351b1dc8e9ba93561bf1921240f131cbdb6d93bd3996",
+  "https://zenfolio.creatorcdn.com/6e812bdb-ce51-4e46-b8c4-b7502be79ab8/0/1/0/X2XL/0-0-0/86012aeb-91af-40bd-8304-6bf8cf9bc929/1/1/9.jpg?fjkss=exp=1735459200~hmac=9eb2009b204d4917a35a351b1dc8e9ba93561bf1921240f131cbdb6d93bd3996"
+]
 
 const slideshow = document.getElementById("slideshow");
 
